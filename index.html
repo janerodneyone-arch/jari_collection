@@ -4,9 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jari Collection | Elegance Redefined</title>
+<title>Jari Collection | Luxury Fashion UAE</title>
 
-https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap
+<meta name="description" content="Jari Collection offers luxury abayas, dresses and accessories. Elegance Redefined.">
+<meta name="keywords" content="Jari Collection, Abaya UAE, Fashion UAE, Luxury Dresses, Accessories">
+<meta name="author" content="Jari Collection">
+
+https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap
 
 <style>
 
@@ -24,10 +28,10 @@ color:#222;
 }
 
 header{
+background:#111;
 position:fixed;
 top:0;
 width:100%;
-background:#111;
 padding:20px 8%;
 display:flex;
 justify-content:space-between;
@@ -36,23 +40,22 @@ z-index:1000;
 }
 
 .logo{
-color:#c8a45d;
-font-size:30px;
 font-family:'Playfair Display',serif;
+font-size:28px;
+color:#c8a45d;
 font-weight:bold;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin-left:25px;
+margin-left:20px;
 }
 
 .hero{
 height:100vh;
-background:linear-gradient(rgba(0,0,0,.55),
-rgba(0,0,0,.55)),
-url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=80');
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1500&q=80');
 background-size:cover;
 background-position:center;
 display:flex;
@@ -62,13 +65,13 @@ text-align:center;
 padding:20px;
 }
 
-.hero-content h1{
-font-family:'Playfair Display',serif;
-font-size:70px;
+.hero h1{
 color:white;
+font-size:70px;
+font-family:'Playfair Display',serif;
 }
 
-.hero-content p{
+.hero p{
 color:white;
 font-size:22px;
 margin:20px 0;
@@ -76,32 +79,30 @@ margin:20px 0;
 
 .btn{
 background:#c8a45d;
+padding:15px 30px;
 color:white;
-padding:15px 35px;
-border:none;
-cursor:pointer;
-font-size:16px;
-border-radius:5px;
 text-decoration:none;
+border-radius:5px;
+display:inline-block;
 }
 
 section{
-padding:90px 8%;
+padding:100px 8%;
 }
 
-.section-title{
-text-align:center;
-margin-bottom:50px;
-font-size:40px;
+h2{
 font-family:'Playfair Display',serif;
+font-size:38px;
+text-align:center;
+margin-bottom:40px;
 }
 
 .search-box{
-width:100%;
-max-width:400px;
-padding:15px;
 display:block;
+width:100%;
+max-width:500px;
 margin:0 auto 40px;
+padding:15px;
 border:1px solid #ddd;
 border-radius:5px;
 }
@@ -116,17 +117,17 @@ gap:25px;
 background:white;
 border-radius:12px;
 overflow:hidden;
-box-shadow:0 5px 20px rgba(0,0,0,.1);
+box-shadow:0 4px 15px rgba(0,0,0,.1);
 transition:.3s;
 }
 
 .card:hover{
-transform:translateY(-8px);
+transform:translateY(-5px);
 }
 
 .card img{
 width:100%;
-height:350px;
+height:320px;
 object-fit:cover;
 }
 
@@ -134,31 +135,27 @@ object-fit:cover;
 padding:20px;
 }
 
-.card h3{
-margin-bottom:10px;
-}
-
 .price{
+color:#c8a45d;
 font-size:22px;
 font-weight:bold;
-color:#c8a45d;
 margin:10px 0;
 }
 
 .card button{
+width:100%;
+padding:12px;
+border:none;
 background:#111;
 color:white;
-border:none;
-padding:12px 20px;
 cursor:pointer;
-width:100%;
 }
 
 .about{
-text-align:center;
-line-height:1.8;
 max-width:900px;
 margin:auto;
+text-align:center;
+line-height:1.8;
 }
 
 .contact-form{
@@ -177,25 +174,20 @@ border:1px solid #ccc;
 .contact-form button{
 width:100%;
 padding:15px;
+border:none;
 background:#111;
 color:white;
-border:none;
 cursor:pointer;
 }
 
 .cart{
 position:fixed;
-top:100px;
 right:20px;
+top:100px;
 background:white;
 padding:15px;
-box-shadow:0 0 20px rgba(0,0,0,.1);
 border-radius:10px;
-width:250px;
-}
-
-.cart h3{
-margin-bottom:10px;
+box-shadow:0 0 15px rgba(0,0,0,.15);
 }
 
 .whatsapp{
@@ -204,7 +196,7 @@ bottom:20px;
 right:20px;
 background:#25D366;
 color:white;
-padding:15px 22px;
+padding:15px 20px;
 border-radius:50px;
 text-decoration:none;
 font-weight:bold;
@@ -213,13 +205,13 @@ font-weight:bold;
 footer{
 background:#111;
 color:white;
-padding:30px;
 text-align:center;
+padding:30px;
 }
 
 @media(max-width:768px){
 
-.hero-content h1{
+.hero h1{
 font-size:45px;
 }
 
@@ -228,10 +220,9 @@ display:none;
 }
 
 .cart{
-position:static;
-margin:20px;
-width:auto;
+display:none;
 }
+
 }
 
 </style>
@@ -248,7 +239,7 @@ JARI COLLECTION
 <nav>
 #homeHome</a>
 #shopShop</a>
-#aboutAbout</a>
+<a hrefbout</a>
 #contactContact</a>
 </nav>
 
@@ -256,7 +247,7 @@ JARI COLLECTION
 
 <section class="hero" id="home">
 
-<div class="hero-content">
+<div>
 
 <h1>Elegance Redefined</h1>
 
@@ -273,21 +264,19 @@ Shop Now
 </section>
 
 <div class="cart">
-<h3>Shopping Cart</h3>
-<p>Items: <span id="count">0</span></p>
+<h3>Cart</h3>
+<p>Items: <span id="cartCount">0</span></p>
 </div>
 
 <section id="shop">
 
-<h2 class="section-title">
-Featured Collection
-</h2>
+<h2>Featured Collection</h2>
 
 <input
 type="text"
 id="search"
 class="search-box"
-placeholder="Search Products..."
+placeholder="Search products..."
 onkeyup="searchProducts()">
 
 <div class="products">
@@ -297,9 +286,7 @@ https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=cro
 <div class="card-content">
 <h3>Luxury Abaya</h3>
 <p class="price">AED 299</p>
-<button onclick="addCart()">
-Add To Cart
-</button>
+<button onclick="addCart()">Add To Cart</button>
 </div>
 </div>
 
@@ -308,9 +295,7 @@ https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=cro
 <div class="card-content">
 <h3>Royal Gold Dress</h3>
 <p class="price">AED 499</p>
-<button onclick="addCart()">
-Add To Cart
-</button>
+<button onclick="addCart()">Add To Cart</button>
 </div>
 </div>
 
@@ -319,9 +304,16 @@ https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=cro
 <div class="card-content">
 <h3>Crystal Luxe Handbag</h3>
 <p class="price">AED 249</p>
-<button onclick="addCart()">
-Add To Cart
-</button>
+<button onclick="addCart()">Add To Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.om/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80
+<div class="card-content">
+<h3>Premium Silk Scarf</h3>
+<p class="price">AED 99</p>
+<button onclick="addCart()">Add To Cart</button>
 </div>
 </div>
 
@@ -331,17 +323,14 @@ Add To Cart
 
 <section id="about">
 
-<h2 class="section-title">
-About Jari Collection
-</h2>
+<h2>About Jari Collection</h2>
 
 <div class="about">
 
 <p>
-Jari Collection is a luxury fashion brand dedicated to elegant abayas,
-designer dresses, and premium accessories.
-Our mission is to bring timeless sophistication and modern style together
-for women who appreciate quality and confidence.
+Jari Collection is a luxury fashion brand focused on elegant abayas,
+designer dresses and premium accessories. Our mission is to provide
+timeless elegance and exceptional quality for modern women.
 </p>
 
 </div>
@@ -350,9 +339,7 @@ for women who appreciate quality and confidence.
 
 <section id="contact">
 
-<h2 class="section-title">
-Contact Us
-</h2>
+<h2>Contact Us</h2>
 
 <div class="contact-form">
 
@@ -362,9 +349,7 @@ Contact Us
 
 <textarea rows="6" placeholder="Your Message"></textarea>
 
-<button>
-Send Message
-</button>
+<button>Send Message</button>
 
 </div>
 
@@ -374,13 +359,9 @@ Send Message
 
 <h3>JARI COLLECTION</h3>
 
-<p>
-Elegance Redefined
-</p>
+<p>Elegance Redefined</p>
 
-<p>
-Instagram | Facebook | TikTok
-</p>
+<p>Instagram | Facebook | TikTok</p>
 
 </footer>
 
@@ -390,34 +371,35 @@ WhatsApp
 
 <script>
 
-let count=0;
+let cart=0;
 
 function addCart(){
-count++;
-document.getElementById("count").innerText=count;
+cart++;
+document.getElementById("cartCount").innerText=cart;
 }
 
 function searchProducts(){
 
-let input=
-document.getElementById("search")
+let input=document
+.getElementById("search")
 .value
 .toLowerCase();
 
-let cards=
-document.querySelectorAll(".card");
+let cards=document.querySelectorAll(".card");
 
 cards.forEach(card=>{
 
-let text=
-card.innerText.toLowerCase();
+let text=card.innerText.toLowerCase();
 
-card.style.display=
-text.includes(input)
-? "block"
-: "none";
+if(text.includes(input)){
+card.style.display="block";
+}
+else{
+card.style.display="none";
+}
 
 });
+
 }
 
 </script>
